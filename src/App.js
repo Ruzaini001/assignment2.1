@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Main from "./components/Main";
+import Section from "./components/Section";
+import "./Styling.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="header">
+        <nav className="navbar">
+          <ul>
+            <li><a href="https://github.com/Ruzaini001">About</a></li>
+            <li><a href="https://github.com/Ruzaini001?tab=repositories">Projects</a></li>
+            <li><a href="https://www.linkedin.com/in/ahmadruzainibinabubakar/">Personal</a></li>
+            <li><a href="mailto:ruzaini93@gmail.com">Contact</a></li>
+          </ul>
+        </nav>
       </header>
+      <div className="container"></div>
+      <Main />
+      <Section />
+      <a href="/Ruzaini.docx" download className="download-btn">Download CV</a>
     </div>
   );
 }
