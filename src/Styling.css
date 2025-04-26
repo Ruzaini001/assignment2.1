@@ -34,7 +34,7 @@ body {
 .container {
   position: relative;
   display: flex;
-  align-items: center; /* Vertically align the items */
+  align-items: center;
   justify-content: center;
   width: 100%;
   height: 70px;
