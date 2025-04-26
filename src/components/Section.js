@@ -1,4 +1,4 @@
-function Section({ name, content }) {
+function Section() {
   return (
     <>
       <p className= "email">Email: ruzaini93@gmail.com</p>
